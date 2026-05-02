@@ -17,3 +17,20 @@ Para demonstrar o domínio de gerenciamento de memória em baixo nível, o proje
 - **Gerenciamento de Memória:** Alocação dinâmica com `malloc` e `free`.
 - **Estrutura Base:** Listas Encadeadas (Nós/Nodes)
 - **Complexidade:** Operações principais implementadas em tempo constante **O(1)**
+
+- ## 📂 Como Executar o Projeto
+
+Para facilitar a avaliação, o projeto pode ser executado diretamente no navegador via **OnlineGDB**:
+
+1. Copie todo o conteúdo do arquivo `main.c` deste repositório.
+2. Acesse o [OnlineGDB (C Compiler)](https://www.onlinegdb.com/online_c_compiler).
+3. Cole o código no editor central.
+4. No canto superior direito, certifique-se de que a linguagem selecionada é **C**.
+5. Clique no botão verde **Run** (ou pressione `F9`).
+6. O menu interativo aparecerá no console na parte inferior da tela.
+
+### Execução Local (Alternativa)
+Caso possua o compilador GCC instalado:
+```bash
+gcc main.c -o sistema_blua
+./sistema_blua
